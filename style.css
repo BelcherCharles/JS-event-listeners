@@ -6,3 +6,22 @@
     background-color:black;
     color:white;
 }
+
+#articleParent {
+    display:flex;
+    width:100vw;
+    
+}
+
+#articleParent > article {
+    flex-direction: row;
+    width:50vw;
+}
+
+#art1 {
+    border: 2px solid blue;
+}
+
+#art2 {
+    border: 2px solid red;
+}
